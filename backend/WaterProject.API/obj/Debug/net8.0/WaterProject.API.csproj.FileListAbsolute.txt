@@ -68,3 +68,4 @@ C:\Users\Trey\OneDrive - Brigham Young University\Desktop\WaterProject\backend\W
 C:\Users\Trey\OneDrive - Brigham Young University\Desktop\WaterProject\backend\WaterProject.API\obj\Debug\net8.0\WaterProject.API.pdb
 C:\Users\Trey\OneDrive - Brigham Young University\Desktop\WaterProject\backend\WaterProject.API\obj\Debug\net8.0\WaterProject.API.genruntimeconfig.cache
 C:\Users\Trey\OneDrive - Brigham Young University\Desktop\WaterProject\backend\WaterProject.API\obj\Debug\net8.0\ref\WaterProject.API.dll
+C:\Users\Trey\OneDrive - Brigham Young University\Desktop\WaterProject\backend\WaterProject.API\obj\Debug\net8.0\WaterProject.API.sourcelink.json
