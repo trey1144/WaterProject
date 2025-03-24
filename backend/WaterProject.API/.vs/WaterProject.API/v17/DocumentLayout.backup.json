@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{9C920D87-2A99-4794-B193-502070CE369D}|WaterProject.API.csproj|solutionrelative:controllers\\watercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9C920D87-2A99-4794-B193-502070CE369D}|WaterProject.API.csproj|c:\\users\\trey\\onedrive - brigham young university\\desktop\\waterproject\\backend\\waterproject.api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9C920D87-2A99-4794-B193-502070CE369D}|WaterProject.API.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9C920D87-2A99-4794-B193-502070CE369D}|WaterProject.API.csproj|c:\\users\\trey\\onedrive - brigham young university\\desktop\\waterproject\\backend\\waterproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C920D87-2A99-4794-B193-502070CE369D}|WaterProject.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Trey\\OneDrive - Brigham Young University\\Desktop\\WaterProject\\backend\\WaterProject.API\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\Trey\\OneDrive - Brigham Young University\\Desktop\\WaterProject\\backend\\WaterProject.API\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-24T00:06:40.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Trey\\OneDrive - Brigham Young University\\Desktop\\WaterProject\\backend\\WaterProject.API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -38,8 +55,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T02:37:44.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T02:37:44.203Z"
             },
             {
               "$type": "Document",
@@ -49,14 +65,14 @@
               "RelativeDocumentMoniker": "Controllers\\WaterController.cs",
               "ToolTip": "C:\\Users\\Trey\\OneDrive - Brigham Young University\\Desktop\\WaterProject\\backend\\WaterProject.API\\Controllers\\WaterController.cs",
               "RelativeToolTip": "Controllers\\WaterController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAswBcAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T00:32:38.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Project.cs",
               "DocumentMoniker": "C:\\Users\\Trey\\OneDrive - Brigham Young University\\Desktop\\WaterProject\\backend\\WaterProject.API\\Data\\Project.cs",
               "RelativeDocumentMoniker": "Data\\Project.cs",
