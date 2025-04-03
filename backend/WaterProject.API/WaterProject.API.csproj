@@ -13,9 +13,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="WaterProject.sqlite">
+    <Content Include="WaterProject.sqlite">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    </Content>
   </ItemGroup>
 
 </Project>
