@@ -1,36 +1,28 @@
 import './App.css';
-import CategoryFilter from './CategoryFilter';
-import Fingerprint from './Fingerprint';
-import ProjectList from './ProjectList';
-import CookieConsent from 'react-cookie-consent';
-import WelcomeBand from './WelcomeBand';
-import { useState } from 'react';
+import { CartProvider } from './context/CartContext';
+import AdminProjectsPage from './pages/AdminProjectsPage';
+import CartPage from './pages/CartPage';
+import DonatePage from './pages/DonatePage';
+import ProjectPage from './pages/ProjectPage';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
-
   return (
     <>
-      <div className="container mt-4">
-        <div className="row bg-primary text-white">
-          <WelcomeBand />
-        </div>
-        <div className="row">
-          <div className="col-md-3">
-            <CategoryFilter
-              selectedCategories={selectedCategories}
-              setSelectedCategories={setSelectedCategories}
+      <CartProvider>
+        <Router>
+          <Routes>
+            <Route path="/" element={<ProjectPage />} />
+            <Route path="/projects" element={<ProjectPage />} />
+            <Route
+              path="/donate/:projectName/:projectId"
+              element={<DonatePage />}
             />
-          </div>
-          <div className="col-md-9">
-            <ProjectList selectedCategories={selectedCategories} />
-            <CookieConsent>
-              This website uses cookies to enhance the user experience.
-            </CookieConsent>
-            <Fingerprint />
-          </div>
-        </div>
-      </div>
+            <Route path="/cart" element={<CartPage />} />
+            <Route path="/adminprojects" element={<AdminProjectsPage />} />
+          </Routes>
+        </Router>
+      </CartProvider>
     </>
   );
 }
